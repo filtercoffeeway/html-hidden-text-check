@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Q3 vendor review</title>
+<style>body{font-family:sans-serif;margin:40px;background:#fff;color:#222}</style>
+</head>
+<body>
+<h1>Signups by week</h1>
+<div id="chart">Loading…</div>
+<script>
+const data=[["Week 1",120],["Week 2",180],["Week 3",150]];
+document.getElementById('chart').innerHTML = data.map(([w,n]) => `<div><span>${w}</span> <b>${n}</b> signups</div>`).join('');
+</script>
+<p>Signups peaked in week two after the newsletter went out.</p>
+</body></html>

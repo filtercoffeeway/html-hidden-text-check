@@ -1,0 +1,169 @@
+{
+  "a01_inline_display_none.html": {
+    "expect": "hidden",
+    "kind": "display-none"
+  },
+  "a02_class_display_none.html": {
+    "expect": "hidden",
+    "kind": "display-none"
+  },
+  "a03_visibility_hidden.html": {
+    "expect": "hidden",
+    "kind": "visibility-hidden"
+  },
+  "a04_opacity_zero.html": {
+    "expect": "hidden",
+    "kind": "opacity-zero"
+  },
+  "a05_offscreen.html": {
+    "expect": "hidden",
+    "kind": "off-screen"
+  },
+  "a06_font_size_zero.html": {
+    "expect": "hidden",
+    "kind": "zero-size"
+  },
+  "a07_white_on_white.html": {
+    "expect": "hidden",
+    "kind": "low-contrast"
+  },
+  "a08_near_white.html": {
+    "expect": "hidden",
+    "kind": "low-contrast"
+  },
+  "a09_sr_only.html": {
+    "expect": "hidden",
+    "kind": "screen-reader-only"
+  },
+  "a10_zero_height_overflow.html": {
+    "expect": "hidden",
+    "kind": "clipped"
+  },
+  "a11_covered.html": {
+    "expect": "hidden",
+    "kind": "covered"
+  },
+  "a12_html_comment.html": {
+    "expect": "hidden",
+    "kind": "html-comment"
+  },
+  "a13_aria_label.html": {
+    "expect": "hidden",
+    "kind": "attribute:aria-label"
+  },
+  "a14_template.html": {
+    "expect": "hidden",
+    "kind": "template"
+  },
+  "a15_noscript.html": {
+    "expect": "hidden",
+    "kind": "noscript"
+  },
+  "a16_unicode_tags.html": {
+    "expect": "hidden",
+    "kind": "unicode-tag-characters"
+  },
+  "a17_zero_width.html": {
+    "expect": "hidden",
+    "kind": "zero-width"
+  },
+  "a18_script_removes.html": {
+    "expect": "hidden",
+    "kind": "removed-by-script"
+  },
+  "a19_svg_text_no_fill.html": {
+    "expect": "hidden",
+    "kind": "transparent-text"
+  },
+  "a20_clip_path.html": {
+    "expect": "hidden",
+    "kind": "clipped"
+  },
+  "a21_transparent_color.html": {
+    "expect": "hidden",
+    "kind": "transparent-text"
+  },
+  "a22_payload_in_modal_class.html": {
+    "expect": "hidden",
+    "kind": "display-none"
+  },
+  "a23_tamper_with_checker.html": {
+    "expect": "hidden",
+    "kind": "display-none"
+  },
+  "a24_external_stylesheet.html": {
+    "expect": "hidden",
+    "kind": "off-screen"
+  },
+  "a25_js_hides_after_load.html": {
+    "expect": "hidden",
+    "kind": "display-none"
+  },
+  "a26_text_indent.html": {
+    "expect": "hidden",
+    "kind": "off-screen"
+  },
+  "a27_hidden_attribute.html": {
+    "expect": "hidden",
+    "kind": "hidden-attribute"
+  },
+  "a28_transform_scale_zero.html": {
+    "expect": "hidden",
+    "kind": "zero-size"
+  },
+  "a29_alt_text.html": {
+    "expect": "hidden",
+    "kind": "attribute:alt"
+  },
+  "a30_bidi_controls.html": {
+    "expect": "hidden",
+    "kind": "bidi-control"
+  },
+  "a31_payload_addressed_to_checker.html": {
+    "expect": "hidden",
+    "kind": "display-none"
+  },
+  "a32_noscript_tracking_style.html": {
+    "expect": "hidden",
+    "kind": "noscript"
+  },
+  "c01_report.html": {
+    "expect": "clean"
+  },
+  "c02_tabs.html": {
+    "expect": "clean"
+  },
+  "c03_details.html": {
+    "expect": "clean"
+  },
+  "c04_icon_buttons.html": {
+    "expect": "clean"
+  },
+  "c05_dark_theme.html": {
+    "expect": "clean"
+  },
+  "c06_scripted_chart.html": {
+    "expect": "clean"
+  },
+  "c07_highlighted_code.html": {
+    "expect": "clean"
+  },
+  "c08_modal_with_button.html": {
+    "expect": "clean"
+  },
+  "c09_select_options.html": {
+    "expect": "clean"
+  },
+  "c10_hover_copy_buttons.html": {
+    "expect": "clean"
+  },
+  "c11_print_only_and_skip_link.html": {
+    "expect": "clean"
+  },
+  "c12_external_assets.html": {
+    "expect": "clean"
+  },
+  "c13_navigates_away.html": {
+    "expect": "clean"
+  }
+}

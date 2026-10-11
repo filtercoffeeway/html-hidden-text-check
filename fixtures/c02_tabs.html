@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Q3 vendor review</title>
+<style>body{font-family:sans-serif;margin:40px;background:#fff;color:#222}</style>
+</head>
+<body>
+<h1>Quarterly results</h1>
+<div role="tablist"><button role="tab" data-tab="t1">Revenue</button><button role="tab" data-tab="t2">Costs</button><button role="tab" data-tab="t3">Hiring</button></div>
+<section id="t1" class="panel"><p>Revenue grew twelve percent over the previous quarter, led by enterprise renewals.</p></section>
+<section id="t2" class="panel" hidden><p>Costs were flat apart from a one time spend on the new data centre lease.</p></section>
+<section id="t3" class="panel" hidden><p>We hired fourteen engineers and two designers across three offices this quarter.</p></section>
+<script>
+document.querySelectorAll('[role=tab]').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('.panel').forEach(p => p.hidden = p.id !== b.dataset.tab);
+}));
+</script>
+</body></html>

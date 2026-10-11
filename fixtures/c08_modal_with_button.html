@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Fixture</title>
+<style>body{font-family:sans-serif;margin:40px;background:#fff;color:#222}</style>
+</head>
+<body>
+<h1>Settings</h1>
+<p>Change how often the digest is sent.</p>
+<button id="open">Edit schedule</button>
+<div class="modal" id="m" style="display:none"><div class="modal-body"><p>Choose a day of the week and a time for the weekly digest to arrive.</p></div></div>
+<script>document.getElementById('open').onclick = () => document.getElementById('m').style.display = 'block';</script>
+</body></html>
