@@ -2,7 +2,7 @@
 
 A [Claude Code skill](https://docs.claude.com/en/docs/claude-code/skills) that finds text in an HTML page that **an AI agent would read but a person would not see**: the hiding places used for prompt injection.
 
-Teams increasingly share AI-generated HTML reports and docs, and agents read them as context. A person reviews the rendered page; an agent reads the source. Anything in the gap between those two views can carry instructions nobody approved. This checker measures that gap.
+People increasingly share AI-generated HTML reports and docs, and agents read them as context. A person reviews the rendered page; an agent reads the source. Anything in the gap between those two views can carry instructions nobody approved. This checker measures that gap.
 
 ```
 $ check.py review.html
